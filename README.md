@@ -9,5 +9,18 @@
   - golang
 - infrastructure
   - dev
-    - docker
+    - Docker
     - docker-compose
+    - Makefile
+
+## Makefile
+### SQL
+- SQLファイル作成
+```
+make newsql NAME=< 作成するファイルの名前 >
+```
+
+- マイグレーション
+```
+make migrate MIGRATE=up
+```
