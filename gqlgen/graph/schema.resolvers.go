@@ -6,8 +6,8 @@ package graph
 import (
 	"context"
 
-	"github.com/takuya911/GraphQL/graph/generated"
-	"github.com/takuya911/GraphQL/graph/model"
+	"github.com/takuya911/gqlgen/graph/generated"
+	"github.com/takuya911/gqlgen/graph/model"
 )
 
 func (r *mutationResolver) CreateUser(ctx context.Context, input model.NewUser) (*model.User, error) {

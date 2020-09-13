@@ -1,4 +1,4 @@
-module github.com/takuya911/GraphQL
+module github.com/takuya911/gqlgen
 
 go 1.14
 

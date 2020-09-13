@@ -7,8 +7,8 @@ import (
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/takuya911/GraphQL/graph"
-	"github.com/takuya911/GraphQL/graph/generated"
+	"github.com/takuya911/gqlgen/graph"
+	"github.com/takuya911/gqlgen/graph/generated"
 )
 
 const defaultPort = "80"

@@ -11,7 +11,7 @@ resolver:
   dir: graph
   package: graph
 autobind:
-  - "github.com/takuya911/GraphQL/graph/model"
+  - "github.com/takuya911/gqlgen/graph/model"
 models:
   ID:
     model:

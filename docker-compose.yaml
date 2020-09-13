@@ -1,11 +1,11 @@
 version: '3.4'
 services:
-  graphql:
+  gqlgen:
     build:
-      context: ./graphql
+      context: ./gqlgen
       dockerfile: Dockerfile
     volumes:
-      - ./graphql:/app
+      - ./gqlgen:/app
     environment:
       - DB_HOST=db
       - DB_PORT=3306

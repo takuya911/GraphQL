@@ -1,2 +1,2 @@
 initgqlgen:
-	cd graphql && go run github.com/99designs/gqlgen generate
+	cd gqlgen && go run github.com/99designs/gqlgen generate
