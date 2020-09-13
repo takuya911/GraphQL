@@ -2,10 +2,10 @@ version: '3.4'
 services:
   graphql:
     build:
-      context: .
+      context: ./graphql
       dockerfile: Dockerfile
     volumes:
-      - .:/app
+      - ./graphql:/app
     environment:
       TZ: Asia/Tokyo
     ports:
